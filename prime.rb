@@ -7,7 +7,7 @@ def prime?(num)
     index = 1
     while index <= i
       factors += 1 if i % index == 0
-      if factors.length > 2
+      if factors > 2
         return false
       end
       index += 1
