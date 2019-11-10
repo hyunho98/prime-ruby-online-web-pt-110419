@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   factors = 0
-  array = (..num).to_a
+  array = (1..num).to_a
 
   array.each{|i|
       factors += 1 if i % num == 0
