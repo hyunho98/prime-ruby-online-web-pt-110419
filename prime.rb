@@ -4,14 +4,10 @@ def prime?(num)
   array = (1..num).to_a
 
   array.each{|i|
-    index = 1
-    while index <= i
-      factors += 1 if i % index == 0
+      factors += 1 if i % num == 0
       if factors > 2
         return false
       end
-      index += 1
-    end
   }
   true
 end
