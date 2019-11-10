@@ -14,4 +14,5 @@ def prime?(num)
       end
   }
   true
+  factors
 end
