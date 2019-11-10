@@ -11,6 +11,6 @@ def prime?(num)
   }
   if factors < 2
     return false
-  end
-  true
+  else
+    return true
 end
