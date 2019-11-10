@@ -8,11 +8,10 @@ def prime?(num)
   end
 
   array.each{|i|
-      factors += 1 if i % num == 0
+      factors += 1 if num % i == 0
       if factors > 2
         return false
       end
   }
   true
-  factors
 end
