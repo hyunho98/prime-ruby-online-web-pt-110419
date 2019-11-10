@@ -1,6 +1,7 @@
 # Add  code here!
-def prime?(array)
+def prime?(num)
   factors = []
+  array = (1..num).to_a
 
   array.each{|i|
     index = 1
